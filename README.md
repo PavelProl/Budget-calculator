@@ -1,11 +1,23 @@
-# Budjet calculator
+# Бюджетный калькулятор
 
-## What is done:
+## Что сделано:
 
-* Pure JS
-* MVC approach
-* Adaptive for mobile
+HTML & CSS:
+* Использован flexbox
+* Сделана мобильная адаптация по принципу desktope-first
 
-![Screenshot](Screen1.png)
-![Screenshot](Screen2.png)
-![Screenshot](Screen3.png)
+JavaScript:
+Модульный подход MVC:
+
+1. Прослушка событий клика по кнопке "добавить" (доход или расход) --- Controller.js
+
+2. Получение соответствующих значений из формы --- View.js
+
+3. Добавление этих данных во внутренний объект --- Model.js
+
+4. Добавление новой записи по этим данным на страницу --- View.js
+
+5. Подсчет бюджета --- Model.js
+
+6. Обновление страницы --- View.js
+
