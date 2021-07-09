@@ -1,23 +1,7 @@
-# Бюджетный калькулятор
+# Budget Calculator
 
-## Что сделано:
+This project was done by me on a JS course from WebCademy.ru.
 
-HTML & CSS:
-* Использован flexbox
-* Сделана мобильная адаптация по принципу desktope-first
+* Here you can enter income and expenses, and the total balance and the percentage of each expense from the total income will be calculated automatically.
 
-JavaScript:
-Модульный подход MVC:
-
-1. Прослушка событий клика по кнопке "добавить" (доход или расход) --- Controller.js
-
-2. Получение соответствующих значений из формы --- View.js
-
-3. Добавление этих данных во внутренний объект --- Model.js
-
-4. Добавление новой записи по этим данным на страницу --- View.js
-
-5. Подсчет бюджета --- Model.js
-
-6. Обновление страницы --- View.js
-
+* MVC approach was used.
